@@ -1,0 +1,126 @@
+.painel-title {
+    height: 32px;
+    width: 430px;
+    border-radius: 0.5px;
+    border: 1px solid lightgray;
+}
+
+.painel-header {
+    width: 450px;
+    height: 333px;
+    color: transparent;
+    border: 1px solid lightgray;
+    box-shadow: lightgray 0px 0px 7px 2px;
+}
+
+.painel {
+    height: 260px;
+    width: 430px;
+    color: transparent;
+    border: 1px solid lightgray;
+}
+
+.painel-2 {
+    color: transparent;
+    border: 1px solid lightgray;
+}
+
+.painel-3 {
+    display: flex;
+    color: transparent;
+    border: 1px solid lightgray;
+    height: 100px;
+    width: 410px;
+}
+
+.text {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #505050;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+.centralizar-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centralizar-2 {
+    margin: 0 auto;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+.m-b-5 {
+    margin-bottom: 5px;
+}
+
+.m-l-5 {
+    margin-left: 5px;
+}
+
+.m-r-5 {
+    margin-right: 5px;
+}
+
+.m-t-15 {
+    margin-top: 15px;
+}
+
+.m-b-15 {
+    margin-top: 15px;
+}
+
+.m-l-15 {
+    margin-left: 15px;
+}
+
+.m-r-15 {
+    margin-right: 15px;
+}
+
+.m-l-30 {
+    margin-left: 30px;
+}
+
+.m-r-30 {
+    margin-right: 30px;
+}
+
+.m-l-50 {
+    margin-left: 50px;
+}
+
+.m-r-50 {
+    margin-right: 50px;
+}
+
+.p-l-30 {
+    padding-left: 30px;
+}
+
+.p-r-30 {
+    padding-right: 30px;
+}
+
+.p-l-25 {
+    padding-left: 25px;
+}
+
+.p-r-25 {
+    padding-right: 25px;
+}
