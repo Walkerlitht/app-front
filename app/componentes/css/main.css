@@ -6,15 +6,15 @@
 }
 
 .painel-header {
-    width: 450px;
-    height: 383px;
+    width: 460px;
+    height: 445px;
     color: transparent;
     border: 1px solid lightgray;
     box-shadow: lightgray 0px 0px 7px 2px;
 }
 
 .painel {
-    height: 310px;
+    height: 340px;
     width: 430px;
     color: transparent;
     border: 1px solid lightgray;
@@ -28,7 +28,7 @@
 .painel-3 {
     color: transparent;
     border: 1px solid lightgray;
-    height: 125px;
+    height: 140px;
     width: 410px;
 }
 
@@ -122,4 +122,8 @@
 
 .p-r-25 {
     padding-right: 25px;
+}
+
+.align-left {
+    text-align: left;
 }
