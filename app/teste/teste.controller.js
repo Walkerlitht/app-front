@@ -6,7 +6,7 @@
     }
 
     angular.module('mainApp').component('teste', {
-        templateUrl: '/app/teste/tete.html',
+        templateUrl: '/app/teste/teste.html',
         controller: TesteCtrl
 
     }).config(['$routeProvider', function ($routeProvider) {

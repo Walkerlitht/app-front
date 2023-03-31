@@ -7,14 +7,14 @@
 
 .painel-header {
     width: 450px;
-    height: 333px;
+    height: 383px;
     color: transparent;
     border: 1px solid lightgray;
     box-shadow: lightgray 0px 0px 7px 2px;
 }
 
 .painel {
-    height: 260px;
+    height: 310px;
     width: 430px;
     color: transparent;
     border: 1px solid lightgray;
@@ -26,10 +26,9 @@
 }
 
 .painel-3 {
-    display: flex;
     color: transparent;
     border: 1px solid lightgray;
-    height: 100px;
+    height: 125px;
     width: 410px;
 }
 
