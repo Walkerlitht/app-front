@@ -3,6 +3,15 @@
 
     function CadastroProdutosCtrl() {
         var $ctrl = this;
+        $ctrl.$onInit = onInit;
+        $ctrl.salvar = salvar;
+
+        function onInit() {
+            $ctrl.modal = false;
+        }
+        function salvar() {
+            $ctrl.modal = true;
+        }
     }
 
     angular.module('mainApp').component('cadastroDeProdutos', {

@@ -10,7 +10,7 @@
                     <div class="col">
                         <div class="row">
                             <div class="col m-r-5 m-t-15">
-                                <input-label class="text" texto="Matrícula" name="inputMatricula"></input-label>
+                                <input-label class="text" texto="Matrícula" name="inputMatricula" modelo="$ctrl.produto.matricula"></input-label>
                             </div>
                             <div class="col m-r-5 m-t-15">
                                 <input-label class="text" texto="Nome" name="inputNome"></input-label>
@@ -54,8 +54,9 @@
             </div>
         </div>
         <div class="btn-group m-l-15 m-t-5">
-            <btn classe-botao="btn-success btn-sm" metodo="" texto="Salvar"></btn>
+            <btn classe-botao="btn-success btn-sm" texto="Salvar" metodo="[$ctrl.salvar()]"></btn>
         </div>
+        <modal-confirma modal-show="$ctrl.modal"></modal-confirma>
     </div>
 </div>
 
