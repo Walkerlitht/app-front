@@ -1,35 +1,31 @@
 .painel-title {
     height: 32px;
-    width: 430px;
+    width: calc(430px + 100px);
     border-radius: 0.5px;
     border: 1px solid lightgray;
 }
 
 .painel-header {
-    width: 460px;
-    height: 445px;
-    color: transparent;
+    width: calc(460px + 100px);
+    height: calc(445px + 120px);
     border: 1px solid lightgray;
     box-shadow: lightgray 0px 0px 7px 2px;
 }
 
 .painel {
-    height: 340px;
-    width: 430px;
-    color: transparent;
+    height: calc(340px + 120px);
+    width: calc(430px + 100px);
     border: 1px solid lightgray;
 }
 
 .painel-2 {
-    color: transparent;
     border: 1px solid lightgray;
 }
 
 .painel-3 {
-    color: transparent;
     border: 1px solid lightgray;
-    height: 140px;
-    width: 410px;
+    height: calc(140px + 50px);
+    width: calc(410px + 100px);
 }
 
 .text {
@@ -129,10 +125,13 @@
 }
 
 .modal-painel-header {
+    position: relative;
+    top: 40vh;
+
     height: 98px;
     width: 236px;
     border-radius: 0.5px;
-    border: 1px solid lightgray;
+    border: 1px solid darkgray;
     box-shadow: lightgray 0px 0px 7px 2px;
     background-color: white;
 
@@ -143,7 +142,8 @@
     height: 87px;
     width: 225px;
     border-radius: 0px;
-    border: 1px solid lightgray;
+    border: 1px solid darkgray;
+    background-color: white;
 }
 
 .modal-text {

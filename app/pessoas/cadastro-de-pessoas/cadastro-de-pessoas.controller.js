@@ -14,13 +14,13 @@
         }
     }
 
-    angular.module('mainApp').component('cadastroDeProdutos', {
-        templateUrl: '/app/produtos/cadastro-de-produtos/cadastro-de-produtos.html',
+    angular.module('mainApp').component('cadastroDePessoas', {
+        templateUrl: '/app/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.html',
         controller: CadastroProdutosCtrl
 
     }).config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/cadastro-de-produtos', {
-            template: '<cadastro-de-produtos></cadastro-de-produtos>'
+        $routeProvider.when('/cadastro-de-pessoas', {
+            template: '<cadastro-de-pessoas></cadastro-de-pessoas>'
         })
     }]);
 
