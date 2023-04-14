@@ -56,6 +56,10 @@
     justify-content: center;
 }
 
+.height-10v {
+    height: 10vh;
+}
+
 .m-t-5 {
     margin-top: 5px;
 }
@@ -77,7 +81,7 @@
 }
 
 .m-b-15 {
-    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .m-l-15 {
@@ -206,4 +210,10 @@
     display: inline-block;
     font-weight: bold;
     font-family: 'arial', 'sans-serif';
+}
+
+.painel-imagem {
+    height: 96.7392578125px;
+    width: 116px;
+    border: 1px solid lightgray;
 }
