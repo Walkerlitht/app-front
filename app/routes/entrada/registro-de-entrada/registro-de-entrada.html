@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col">
+        <div class="centralizar">
+            <div class="painel-header h-auto w-auto">
+                <div class="painel-title centralizar-2 m-r-15 m-l-15 mt-2 w-auto">
+                    <label for="registroDeEntrada" class="centralizar mt-2 text">Registro de Entrada</label>
+                </div>
+                <div class="painel centralizar-2 m-l-15 m-r-15 m-t-15 m-b-15 h-auto w-auto" id="registroDeEntrada">
+                    <div class="row">
+<!--                        <div class="col-lg-4 col-md-4">-->
+<!--                            <div class="m-l-15 m-t-15">-->
+<!--                                <btn texto="Importar Documento" classe-botao="btn-success btn-sm" metodo="$ctrl.importar()"></btn>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                        <div class="col">
+                            <div class="form-control-sm float-end m-t">
+                                <input class="text" placeholder="ID PRODUTO" ng-model="$ctrl.idProduto">
+                            </div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="form-control-sm float-end m-t-15">
+                                <btn imagem="setup/arquivos/imagens/pesquisa.png" classe-botao="btn-sm" metodo="$ctrl.pesquisaRapida()"></btn>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-t-15 m-r-5 m-l-5 m-b-15">
+                        <div class="col">
+                            <div class="painel-4">
+                                <div class="painel-title-2 centralizar">
+                                    <label for="registros" class="text centralizar-3">Registros</label>
+                                </div>
+                                <grid grid="$ctrl.grid" id="registros"></grid>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="painel-2">
+                            <div class="btn-group m-l-15 m-t-5 m-b-5">
+                                <btn texto="Salvar" classe-botao="btn-success btn-sm" metodo=""></btn>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

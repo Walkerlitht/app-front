@@ -1,24 +1,70 @@
 <!DOCTYPE html >
-<html lang="en" ng-app="mainApp">
+<html lang="pt-br" ng-app="mainApp">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Almoxarifado</title>
     </head>
     <body>
-
-        <ng-view></ng-view>
+        <toast></toast>
+        <ng-view>
+        </ng-view>
 
         <script src="/node_modules/angular/angular.js"></script>
         <script src="/node_modules/angular-route/angular-route.js"></script>
+        <script src="/node_modules/ng-file-upload/dist/ng-file-upload.js"></script>
+        <script src="/node_modules/ng-file-upload/dist/ng-file-upload-shim.js"></script>
+        <script src="/node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="/node_modules/ng-toast/dist/ngToast.min.js"></script>
+        <script src="/node_modules/angular-animate/angular-animate.min.js"></script>
         <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.6/ui-bootstrap-tpls.min.js"></script>
+
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/ng-toast/dist/ngToast.min.css">
+        <link rel="stylesheet" href="node_modules/ng-toast/dist/ngToast-animations.min.css">
 
         <script src="/app/app.config.js"></script>
-        <script src="/app/produtos/cadastro-de-produtos/cadastro-de-produtos.controller.js"></script>
+        <script src="/setup/config/api/api.service.js"></script>
+        <script src="/app/routes/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.controller.js"></script>
+        <script src="/app/routes/pessoas/pessoas.service.js"></script>
+        <script src="/app/routes/pessoas/pessoas.controller.js"></script>
+        <script src="/app/routes/departamentos/cadastro-de-departamentos/cadastro-de-departamentos.controller.js"></script>
+        <script src="/app/routes/produtos/cadastro-de-produtos/cadastro-de-produtos.controller.js"></script>
+        <script src="/app/routes/produtos/produtos.controller.js"></script>
+        <script src="/app/routes/produtos/produtos.service.js"></script>
+        <script src="/app/routes/niveis-de-acesso/cadastro-de-niveis-de-acesso/cadastro-de-niveis-de-acesso.controller.js"></script>
+        <script src="/app/routes/niveis-de-acesso/cadastro-de-niveis-de-acesso/cadastro-de-niveis-de-acesso.service.js"></script>
+        <script src="/app/routes/entrada/registro-de-entrada/registro-de-entrada.controller.js"></script>
+        <script src="/app/routes/retirada/registro-de-retirada/registro-de-retirada.controller.js"></script>
+        <script src="/app/routes/retirada/consulta-de-retirada/consulta-de-retirada.controller.js"></script>
+        <script src="/app/componentes/painel-imagem/painel-imagem.controller.js"></script>
         <script src="/app/componentes/input-label/input-label.component.js"></script>
-        <script src="/app/teste/teste.controller.js"></script>
+        <script src="/app/componentes/select/select.component.js"></script>
+        <script src="/app/routes/teste/teste.controller.js"></script>
+        <script src="/app/componentes/modal-confirma/modal-confirma.component.js"></script>
+        <script src="/app/componentes/modal/modal.component.js"></script>
+        <script src="/app/componentes/modal/modal.factory.js"></script>
+        <script src="/app/componentes/btn/btn.component.js"></script>
+        <script src="/app/componentes/toast/toast.js"></script>
+        <script src="/setup/config/session-storage/session-storage.js"></script>
+<!--        <script src="/app/componentes/modal-cofirma/modal-confirma.js"></script>-->
+        <script src="/app/componentes/input-file/input-file.component.js"></script>
+        <script src="/app/componentes/grid/grid.component.js"></script>
+        <script src="/app/componentes/grid/grid.factory.js"></script>
+        <script src="/app/utils/utilformat.service.js"></script>
 
         <link rel="stylesheet" href="/app/componentes/css/main.css">
-
+        <link rel="stylesheet" href="/app/componentes/css/width.css">
+        <link rel="stylesheet" href="/app/componentes/css/margin.css">
+        <link rel="stylesheet" href="/app/componentes/css/padding.css">
+        <link rel="stylesheet" href="/app/componentes/css/modal.css">
+        <link rel="stylesheet" href="/app/componentes/css/painel.css">
+        <link rel="stylesheet" href="/app/componentes/css/painel-imagem.css">
+        <link rel="stylesheet" href="/app/componentes/css/btn.css">
+        <link rel="stylesheet" href="/app/componentes/painel-imagem/painel-imagem.css">
+        <link rel="stylesheet" href="/app/componentes/input-file/input-file.css">
+        <link rel="stylesheet" href="/app/componentes/grid/grid.css">
+        <link rel="stylesheet" href="/app/componentes/css/test.scss">
     </body>
 </html>

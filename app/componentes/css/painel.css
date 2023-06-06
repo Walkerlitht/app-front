@@ -1,0 +1,70 @@
+.painel-title {
+    height: 32px;
+    width: calc(430px + 100px);
+    border-radius: 0.5px;
+    border: 1px solid lightgray;
+}
+
+.painel-title-2 {
+    height: 32px;
+    width: calc(430px + 100px);
+    border-radius: 0.5px;
+    border: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+}
+
+.painel-header {
+    width: calc(460px + 100px);
+    height: calc(445px + 120px);
+    border: 1px solid lightgray;
+    box-shadow: lightgray 0px 0px 7px 2px;
+}
+
+.painel-header-2 {
+    width: calc(460px + 200px);
+    height: calc(445px + 120px);
+    border: 1px solid lightgray;
+    box-shadow: lightgray 0px 0px 7px 2px;
+}
+
+.painel-header-3 {
+    width: calc(460px + 140px);
+    height: calc(445px + 120px);
+    border: 1px solid lightgray;
+}
+
+.painel-header-4 {
+    width: calc(460px + 120px);
+    height: calc(445px + 120px);
+    border: 1px solid lightgray;
+    box-shadow: lightgray 0px 0px 7px 2px;
+}
+
+.painel {
+    height: calc(340px + 120px);
+    width: calc(430px + 100px);
+    border: 1px solid lightgray;
+}
+
+.painel-2 {
+    border: 1px solid lightgray;
+}
+
+.painel-3 {
+    border: 1px solid lightgray;
+    height: calc(140px + 50px);
+    width: calc(410px + 100px);
+}
+
+.painel-4 {
+    height: calc(340px + 120px);
+    width: calc(430px + 100px);
+    border: 1px solid lightgray;
+    border-top: none;
+}
+
+.painel-5 {
+    border: 1px solid lightgray;
+    display: table;
+}

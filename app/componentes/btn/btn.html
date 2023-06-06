@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col">
+    <button class="btn m-r-15 {{$ctrl.classeBotao}}" ng-click="$ctrl.metodo()">
+      <span ng-if="$ctrl.imagem">
+        <img src="{{$ctrl.imagem}}" ng-style="{'width': 25 + 'px', 'heigth': 15 + 'px'}">
+      </span>
+      <span>
+        {{$ctrl.texto}}
+      </span>
+    </button>
+  </div>
+</div>

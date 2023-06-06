@@ -1,0 +1,96 @@
+<div class="row">
+    <div class="col">
+        <div class="centralizar">
+            <div class="painel-header h-auto ">
+                <div class="painel-title centralizar-2 m-r-15 m-l-15 mt-2 w-auto">
+                    <label for="cadastro-de-produtos" class="text centralizar mt-2">Cadastro de Produtos</label>
+                </div>
+                <div class="painel centralizar-2 m-t-15 m-l-15 m-r-15 m-b-15 h-auto w-auto" id="cadastro-de-produtos">
+                    <div class="col-lg-12">
+                        <div class="row now-wrap">
+                            <div class="col-lg-6">
+                                <div class="row ">
+                                    <div class="col-lg-3 col-md-3 m-l-30 m-t-5">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Nome" modelo="$ctrl.produto.nome"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 m-l-30 m-t-5">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Fornecedor" modelo="$ctrl.produto.fornecedor"></input-label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 m-l-30">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Marca" modelo="$ctrl.produto.marca"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 m-l-30">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Descrição" modelo="$ctrl.produto.descricao"></input-label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-lg-3 col-md-3 m-l-30">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Categoria" modelo="$ctrl.produto.categoria"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 m-l-15">
+                                        <div class="form-control-sm ">
+                                            <label class="text" for="nivelAcessoProduto">Nível Acesso</label>
+                                            <select-options opcoes="$ctrl.tiposAcesso" modelo="$ctrl.produto.nivelAcesso.tipoAcesso" id="nivelAcessoProduto"></select-options>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-b-15">
+                                    <div class="col-lg-3 col-md-3 m-l-30">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Departamento" modelo="$ctrl.produto.departamento"></input-label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col input-text m-t-15 m-l-15">
+                                        <input class="w-145px" type="text" ng-model="$ctrl.produto.id" name="idProduto" placeholder="ID PRODUTO" ng-disabled="true">
+                                    </div>
+                                </div>
+                                <div class="row m-t-5">
+                                    <div class="col centralizar-2">
+                                        <div class="painel-imagem  h-auto m-l-15">
+                                            <painel-imagem imagem="$ctrl.imagem" class="centralizar "></painel-imagem>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-t-5 m-b-15">
+                                    <div class="col m-l-15">
+                                        <div class="btn-group-sm m-l-15 m-r-30">
+                                            <input-file-image imagem="$ctrl.imagem"></input-file-image>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="painel-2">
+                            <div class="btn-group m-l-15 m-t-5 m-b-5">
+                                <btn texto="Salvar" type="submit" classe-botao="btn-success btn-sm" metodo="$ctrl.abrirModal()"></btn>
+                                <btn texto="Salvar e Adicionar Novo" classe-botao="btn-info btn-sm text-white" metodo="$ctrl.abrirModal(true)"></btn>
+                                <btn texto="Voltar" type="submit" classe-botao="btn-dark btn-sm" metodo="$ctrl.voltar()"></btn>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <modal-confirma modal-show="$ctrl.modal" confirma="$ctrl.salvar()"></modal-confirma>
+            </div>
+        </div>
+    </div>
+</div>

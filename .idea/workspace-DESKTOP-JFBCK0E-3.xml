@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef2e864b-cc04-4e7d-86dd-2853fd4f4f5f" name="Changes" comment="Criando cadastro de produtos">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace-DESKTOP-JFBCK0E-2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace-DESKTOP-JFBCK0E.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace-JOIA01PC25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace-JOIA08PC20-2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace-JOIA08PC20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/btn/btn.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/btn/btn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/btn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/margin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/padding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/painel-imagem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/painel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/width.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/grid/grid.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/grid/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/grid/grid.factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/grid/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/input-file/input-file.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/input-file/input-file.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/input-file/input-file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/modal-confirma/modal-confirma.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/modal-confirma/modal-confirma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/painel-imagem/painel-imagem.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/painel-imagem/painel-imagem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/painel-imagem/painel-imagem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/select/select.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/select/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/entrada/registro-de-entrada/registro-de-entrada.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/entrada/registro-de-entrada/registro-de-entrada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/niveis-de-acesso/cadastro-de-niveis-de-acesso/cadastro-de-niveis-de-acesso.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/niveis-de-acesso/cadastro-de-niveis-de-acesso/cadastro-de-niveis-de-acesso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/niveis-de-acesso/cadastro-de-niveis-de-acesso/cadastro-de-niveis-de-acesso.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/produtos/cadastro-de-produtos/cadastro-de-produtos.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/produtos/cadastro-de-produtos/cadastro-de-produtos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/produtos/produtos.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/produtos/produtos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/produtos/produtos.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/retirada/consulta-de-retirada/consulta-de-retirada.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/retirada/consulta-de-retirada/consulta-de-retirada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/retirada/registro-de-retirada/registro-de-retirada.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/retirada/registro-de-retirada/registro-de-retirada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/teste/teste.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/utilformat.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/FileAPI.flash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/FileAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/FileAPI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/ng-file-upload-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/ng-file-upload-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/ng-file-upload-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/ng-file-upload-shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/ng-file-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/dist/ng-file-upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/ng-file-upload/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/arquivos/imagens/imagemPadrao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/arquivos/imagens/pesquisa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/config/api/api.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/input-label/input-label.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/input-label/input-label.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/input-label/input-label.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/input-label/input-label.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/produtos/cadastro-de-produtos/cadastro-de-produtos.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/produtos/cadastro-de-produtos/cadastro-de-produtos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/teste/teste.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/teste/teste.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/teste/tete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="SCSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cadastro-de-produtos#1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NhpXkq2LtYHUXYWbUrB0EZ3IV8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sp01l/OneDrive - Católica SC/EngSoft/Teste de Software/app-front/index.js&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luis00.pereira\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\setup\arquivos\imagens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luis00.pereira\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\app\componentes\grid" />
+      <recent name="C:\Users\luis00.pereira\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\app\routes\produtos" />
+      <recent name="C:\Users\alice\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\app\routes\entrada" />
+      <recent name="C:\Users\alice\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\app\routes\retirada" />
+      <recent name="C:\Users\alice\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\app\routes\departamentos\cadastro-de-departamentos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef2e864b-cc04-4e7d-86dd-2853fd4f4f5f" name="Changes" comment="Criando cadastro de produtos" />
+      <created>1683250386536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683250386536</updated>
+      <workItem from="1683250390213" duration="1697000" />
+      <workItem from="1683324068209" duration="2558000" />
+      <workItem from="1683326772973" duration="557000" />
+      <workItem from="1683327336700" duration="6610000" />
+      <workItem from="1683375653077" duration="1681000" />
+      <workItem from="1683400389106" duration="4876000" />
+      <workItem from="1683507398134" duration="6139000" />
+      <workItem from="1683583776774" duration="10059000" />
+      <workItem from="1683669635539" duration="10090000" />
+      <workItem from="1683684967383" duration="7198000" />
+      <workItem from="1683758146534" duration="12781000" />
+      <workItem from="1683942499065" duration="683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

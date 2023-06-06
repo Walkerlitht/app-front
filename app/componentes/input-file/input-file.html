@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col fileUpload">
+        <span class=" btn btn-success btn-sm">Escolher Arquivo</span>
+        <input class="upload" id="inputFile" type="file" accept="image/*"
+               ng-model="$ctrl.imagem"
+               onchange="angular.element(this).scope().lerImagem(this)"/>
+    </div>
+</div>

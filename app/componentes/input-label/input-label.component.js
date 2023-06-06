@@ -12,7 +12,8 @@
             tipo: '@',
             texto: '@',
             modelo: '=',
-            name: '@'
+            name: '@',
+            placeholder: '@'
         }
     })
 

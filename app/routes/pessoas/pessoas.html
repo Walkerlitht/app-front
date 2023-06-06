@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col">
+        <div class="centralizar">
+            <div class="painel-header h-auto">
+                <div class="painel-title centralizar-2 m-r-15 m-l-15 mt-2 w-auto">
+                    <label class="text centralizar mt-2">Pessoas</label>
+                </div>
+                <div class="painel centralizar-2 m-t-15 m-l-15 m-r-15 m-b-15 h-auto w-auto">
+                    <div class="btn-toolbar m-l-15 m-t-15 m-b-5">
+                        <div class="btn-group">
+                            <btn texto="Inserir" classe-botao="btn-success btn-sm" metodo="$ctrl.inserir()"></btn>
+                            <btn texto="Editar" classe-botao="btn-info btn-sm text-white" metodo="$ctrl.editar($ctrl.grid.selectedRow)"></btn>
+                            <btn texto="Excluir" classe-botao="btn-danger btn-sm" metodo="$ctrl.abrirModal()"></btn>
+                        </div>
+                    </div>
+                    <div class="m-l-15 m-r-15 w-auto">
+                        <grid grid="$ctrl.grid"></grid>
+                    </div>
+                    <modal-confirma modal-show="$ctrl.modal" confirma="$ctrl.excluir($ctrl.grid.selectedRow.id)"></modal-confirma>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col">
+        <div class="centralizar">
+            <div class="painel-header w-auto h-auto">
+                <div class="painel-title centralizar-2 mt-2 m-l-15 m-r-15 w-auto">
+                    <label for="content-painel" class="text centralizar m-t-5">Cadastro de Niveis de Acesso</label>
+                </div>
+                <div class="row painel-2 w-auto m-l-15 m-r-15 m-t-15 m-b-15" id="content-painel">
+                    <div class="col-lg-4">
+                        <div class="m-t-15 m-l-15 m-b-15 text form-control-sm">
+                            <input-label texto="Nome do Cargo" modelo="$ctrl.nivelAcesso.nomeCargo"></input-label>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="m-t-15 m-l-15 text form-control-sm">
+                            <label class="text" for="tipoAcesso">Tipo de Acesso</label>
+                            <select-options opcoes="$ctrl.tiposAcesso" modelo="$ctrl.nivelAcesso.tipoAcesso" id="tipoAcesso"></select-options>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="painel-2 h-auto w-auto">
+                            <div class="btn-group m-l-15 m-b-5 m-t-5">
+                                <btn texto="Salvar" classe-botao="btn-success btn-sm" metodo="[$ctrl.abrirModal()]"></btn>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <modal-confirma modal-show="$ctrl.modal" confirma="$ctrl.cadastrar($ctrl.nivelAcesso)"></modal-confirma>
+            </div>
+        </div>
+    </div>
+</div>
+

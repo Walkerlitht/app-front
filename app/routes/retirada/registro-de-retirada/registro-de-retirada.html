@@ -1,0 +1,61 @@
+<div class="row">
+    <div class="col">
+        <div class="centralizar">
+            <div class="painel-header h-auto">
+                <div class="painel-title centralizar-2 m-l-15 m-r-15 m-t-15 w-auto">
+                    <label for="registro-de-retirada" class="text centralizar m-t-5">Registro de Retirada</label>
+                </div>
+                <div class="painel centralizar-2 m-t-15 m-l-15 m-r-15 m-b-15 w-auto h-auto" id="registro-de-retirada">
+                    <div class="col-lg-12">
+                        <div class="row now-wrap m-b-15">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 m-t-5 m-r-30">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="ID Produto"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 text m-t-5 m-l-15">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Quantidade"></input-label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 text m-t-5">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Matrícula"></input-label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col input-text m-t-15 m-l-15">
+                                        <input class="w-145px" type="text" ng-model="$ctrl.produto.id" name="idProduto" placeholder="ID PRODUTO" ng-disabled="true">
+                                    </div>
+                                </div>
+                                <div class="row m-t-5">
+                                    <div class="col centralizar-2">
+                                        <div class="painel-imagem  h-auto m-l-15">
+                                            <painel-imagem imagem="$ctrl.imagem" class="centralizar "></painel-imagem>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="painel-2">
+                            <div class="btn-group m-l-15 m-t-5 m-b-5">
+                                <btn texto="Retirar" type="submit" classe-botao="btn-success btn-sm"></btn>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

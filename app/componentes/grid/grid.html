@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col">
+        <div class="centralizar">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table-dark grid-col text-center" ng-repeat="col in $ctrl.grid.colunas">{{col.titulo}}</th>
+                    </tr>
+                </thead>
+                <tbody ng-if="!$ctrl.grid.loader">
+                    <tr class="{{$ctrl.grid.selectedRow === item ? 'selectable' : null}} pointer-event"
+                        ng-repeat="item in $ctrl.grid.dados" ng-init="$ctrl.ordenarLista()"
+                        ng-click="[$ctrl.selecionar(item)]">
+                        <td id="row-{{$index}}" class="grid-col table-striped-columns"
+                            ng-repeat="campo in $ctrl.grid.colunas">{{item[$ctrl.lista[$index]]}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="row centralizar m-t-30 m-b-15" ng-if="$ctrl.grid.loader">
+    <img ng-style="{'width': 50 + 'px', 'height': 50 + 'px'}" src="setup/arquivos/gifs/gradient-5812.gif" alt="loader">
+</div>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef2e864b-cc04-4e7d-86dd-2853fd4f4f5f" name="Changes" comment="Criando cadastro de produtos">
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/margin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/padding.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/painel-imagem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/painel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/css/width.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/painel-imagem/painel-imagem.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/painel-imagem/painel-imagem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/select/select.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/componentes/select/select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/consulta-de-retirada/consulta-de-retirada.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/consulta-de-retirada/consulta-de-retirada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/niveis-de-acesso/cadastro-de-niveis-de-acesso.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/niveis-de-acesso/cadastro-de-niveis-de-acesso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/niveis-de-acesso/cadastro-de-niveis-de-acesso.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/produtos/cadastro-de-produtos.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/registro-de-entrada/registro-de-entrada.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/registro-de-entrada/registro-de-entrada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/registro-de-retirada/registro-de-retirada.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/registro-de-retirada/registro-de-retirada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/arquivos/imagens/imagemPadrao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/arquivos/imagens/pesquisa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup/config/api/api.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/btn/btn.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/btn/btn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/btn/btn.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/btn/btn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/input-label/input-label.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/input-label/input-label.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/input-label/input-label.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/input-label/input-label.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/modal-cofirma/modal-confirma.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/modal-cofirma/modal-confirma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/componentes/modal-cofirma/modal-confirma.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/componentes/modal-cofirma/modal-confirma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/departamentos/cadastro-de-departamentos.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/departamentos/cadastro-de-departamentos.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/departamentos/cadastro-de-departamentos.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/departamentos/cadastro-de-departamentos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/pessoas/cadastro-de-pessoas/cadastro-de-pessoas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/produtos/cadastro-de-produtos.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/produtos/cadastro-de-produtos.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/produtos/cadastro-de-produtos.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/produtos/cadastro-de-produtos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/teste/teste.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/teste/teste.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/teste/teste.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/teste/teste.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NhpXkq2LtYHUXYWbUrB0EZ3IV8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cadastro-de-produtos#1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sp01l/OneDrive - Católica SC/EngSoft/Teste de Software/app-front&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luis00.pereira\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\setup\arquivos\imagens" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luis00.pereira\OneDrive - Católica SC\EngSoft\Teste de Software\app-front\setup\arquivos\imagens" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef2e864b-cc04-4e7d-86dd-2853fd4f4f5f" name="Changes" comment="Criando cadastro de produtos" />
+      <created>1681855481071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681855481071</updated>
+      <workItem from="1681855482075" duration="130000" />
+      <workItem from="1681855809552" duration="768000" />
+      <workItem from="1681856720848" duration="4104000" />
+      <workItem from="1681860843669" duration="3407000" />
+      <workItem from="1681870216463" duration="7502000" />
+      <workItem from="1681877936446" duration="59000" />
+      <workItem from="1681940184494" duration="8489000" />
+      <workItem from="1682373874934" duration="1495000" />
+      <workItem from="1682460631825" duration="3098000" />
+      <workItem from="1682474673043" duration="339000" />
+      <workItem from="1682475031301" duration="1771000" />
+      <workItem from="1682546655599" duration="6559000" />
+      <workItem from="1682632684295" duration="4169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Criando tela cadastro-de-produtos" />
+    <MESSAGE value="Criado componente btn, ajustes tela cadastro-de-produtos.html" />
+    <MESSAGE value="Criado componente modal" />
+    <MESSAGE value="**" />
+    <MESSAGE value="Criando cadastro de produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando cadastro de produtos" />
+  </component>
+</project>

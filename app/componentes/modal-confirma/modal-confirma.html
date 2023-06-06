@@ -1,0 +1,23 @@
+<div class="row" ng-show="$ctrl.modalShow">
+    <div class="col">
+        <div class="ng-modal-overlay centralizar-3">
+            <div class="modal-painel-header">
+                <div class="modal-painel centralizar-2 m-t-5">
+                    <div class="row m-t-15">
+                        <div class="col">
+                            <label class="modal-text centralizar">Deseja confirmar?</label>
+                        </div>
+                    </div>
+                    <div class="row m-t-15 m-l-5">
+                        <div class="col">
+                            <btn classe-botao="btn-sm btn-success" metodo="$ctrl.confirma()" texto="Confirmar"></btn>
+                        </div>
+                        <div class="col">
+                            <btn classe-botao="btn-sm btn-danger" texto="Cancelar" metodo="$ctrl.modalShow = false"></btn>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,90 @@
+<div class="row">
+    <div class="col">
+        <div class="centralizar">
+            <div class="painel-header h-auto w-auto">
+                <div class="painel-title centralizar-2 mt-2 m-l-15 m-r-15">
+                    <label class="text centralizar mt-2">Cadastro de Pessoas</label>
+                </div>
+                <div class="painel centralizar-2 h-auto m-t-15">
+                    <label class="text m-l-15 m-t-15">Informações Gerais</label>
+                    <div class="centralizar-3">
+                        <div class="row painel-3 h-auto">
+                            <div class="col-lg-12">
+                                <div class="row m-b-15">
+                                    <div class="col-lg-2 m-r-5 m-t-15 m-l-15">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Matrícula" name="inputMatricula" modelo="$ctrl.pessoa.matricula"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 m-t-15 m-l-30">
+                                        <div class="form-control-sm">
+                                            <input-label class="text" texto="Nome" name="inputNome" modelo="$ctrl.pessoa.nome"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 m-t-15 m-l-30">
+                                        <div class="form-control-sm">
+                                            <label class="text" for="nivelAcesso">Nível de Acesso</label>
+                                            <select-options opcoes="$ctrl.tiposAcesso" modelo="$ctrl.pessoa.nivelAcesso.tipoAcesso" id="nivelAcesso"></select-options>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="text m-l-15 m-t-15">Informações de Endereço</label>
+                    <div class="centralizar-3 m-b-15">
+                        <div class="row painel-3 h-auto">
+                            <div class="col-lg-12">
+                                <div class="row m-t-15">
+                                    <div class="col-lg-2 m-l-15 m-r-15">
+                                        <div class="form-group-sm">
+                                            <input-label class="text" texto="Endereço" modelo="$ctrl.pessoa.endereco.endereco"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 m-l-30 m-r-15">
+                                        <div class="form-group-sm">
+                                            <input-label class="text" texto="Número" modelo="$ctrl.pessoa.endereco.numero"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 m-l-30">
+                                        <div class="form-group-sm">
+                                            <input-label class="text" texto="Bairro" modelo="$ctrl.pessoa.endereco.bairro"></input-label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-t-15">
+                                    <div class="col-lg-2 m-l-15 m-r-15">
+                                        <div class="form-group-sm">
+                                            <input-label class="text" texto="Cidade" modelo="$ctrl.pessoa.endereco.cidade"></input-label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 m-l-30">
+                                        <div class="form-group-sm">
+                                            <input-label class="text" texto="CEP" modelo="$ctrl.pessoa.endereco.cep"></input-label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-t-15">
+
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="painel-2 h-auto w-auto m-t-15">
+                            <div class="btn-group m-l-15 m-t-5 m-b-5">
+                                <btn classe-botao="btn-success btn-sm" texto="Salvar" metodo="$ctrl.abrirModal()"></btn>
+                                <btn texto="Voltar" type="submit" classe-botao="btn-dark btn-sm" metodo="$ctrl.voltar()"></btn>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <modal-confirma modal-show="$ctrl.modal" confirma="$ctrl.salvar()"></modal-confirma>
+            </div>
+        </div>
+    </div>
+</div>
+

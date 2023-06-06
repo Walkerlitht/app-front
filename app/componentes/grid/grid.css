@@ -1,0 +1,22 @@
+.grid-row {
+    border-top: darkgray 1px solid;
+    box-sizing: border-box;
+}
+
+.grid-col {
+    border-left: darkgray 1px solid;
+    border-right: darkgray 1px solid;
+}
+.my-column.table {
+    background-color: #575757;
+    color: #000000;
+    /*text-align: center;*/
+    /*padding: 10px;*/
+    border-left: white solid 1px;
+}
+
+.selectable {
+    background-color: #6767ff;
+    opacity: 90%;
+    color: white;
+}
